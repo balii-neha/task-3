@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.LoginFormActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Screen Title"
+        android:textColor="@color/black"
+        android:textSize="50dp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email_mEt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:hint="Email"
+        android:singleLine="true"
+        android:textColorHint="@color/gray"
+        android:textSize="30sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password_mEt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:hint="Password"
+        android:singleLine="true"
+        android:textColorHint="@color/gray"
+        android:textSize="30sp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/confirmPassword_mEt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="60dp"
+        android:hint="Confirm Password"
+        android:singleLine="true"
+        android:textColorHint="@color/gray"
+        android:textSize="30sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/submit_mButton"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/blue"
+        android:text="Submit"
+
+        android:textAllCaps="false"
+        android:textSize="40sp" />
+
+</LinearLayout>
